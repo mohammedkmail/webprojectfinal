@@ -107,7 +107,13 @@ header {
   font-weight: 700;
 }
 
-
+.welcomeText p {
+  padding-bottom: 3rem;
+  width: 90%;
+  
+  
+  
+}
 
 
 
