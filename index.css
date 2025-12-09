@@ -188,6 +188,17 @@ header {
   line-height: 1.6;
 }
 
+/* ==================== About Section ==================== */
+.aboutUs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem 2rem;
+  padding-bottom: 6rem;
+  gap: 2rem;
+}
+
 
 
 
