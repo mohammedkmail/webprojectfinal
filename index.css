@@ -227,6 +227,33 @@ header {
   font-size: 15px;
 }
 
+/* ==================== Featured Books Section ==================== */
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.featured-section {
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+  background-color: #f3f4f6;
+  width: 100%;
+}
+
+.horizontal-scroll {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 
 
 
