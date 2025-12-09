@@ -107,6 +107,19 @@ header {
   font-weight: 700;
 }
 
+.welcomeText p {
+  padding-bottom: 3rem;
+  width: 90%;
+  color: #555;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.welcome img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+}
 
 
 
