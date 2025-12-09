@@ -91,7 +91,13 @@ header {
   background-position: center;
 }
 
+.welcomeText {
+  flex: 1;
+  width: 50%;
+  max-width: 100%;
 
+
+}
 
 
 
