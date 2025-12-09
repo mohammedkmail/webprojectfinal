@@ -126,11 +126,11 @@ header {
   color: white;
   border: none;
   padding: 12px 32px;
-  
-  
-  
- 
-  
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 
