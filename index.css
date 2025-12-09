@@ -181,6 +181,12 @@ header {
   color: #333;
 }
 
+.service-desc {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
 
 
 
