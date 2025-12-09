@@ -101,7 +101,8 @@ header {
 
 .welcomeText h1 {
   color: #000;
- 
+  font-size: 3.3rem;
+  padding-bottom: 2rem;
   
  
 }
