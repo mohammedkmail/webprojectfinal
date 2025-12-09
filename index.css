@@ -116,7 +116,7 @@ header {
 }
 
 .welcome img {
-
+  flex: 1;
 
 
 }
