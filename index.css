@@ -118,9 +118,20 @@ header {
 .welcome img {
   flex: 1;
   max-width: 100%;
-
+  height: auto;
 }
 
+.cta-button {
+  background-color: #099da1;
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  
+  
+  
+ 
+  
+}
 
 
 
