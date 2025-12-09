@@ -199,6 +199,18 @@ header {
   gap: 2rem;
 }
 
+.aboutUs img {
+ 
+  max-width: 50%;
+  height: 50%;
+  border-radius: 8px;
+}
+
+.aboutUs div {
+  flex: 1;
+  padding-left: 2.5rem;
+  width: 37%;
+}
 
 
 
