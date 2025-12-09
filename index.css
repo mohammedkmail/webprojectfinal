@@ -286,6 +286,24 @@ header {
   overflow: hidden;
 }
 
+.book-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 4px 12px rgba(9, 157, 161, 0.2);
+}
+
+.book-image {
+  padding-top: 0.5rem;
+  width: 60%;
+  height: 11rem;
+  object-fit: cover;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+  display: block;
+}
+
+.book-info {
+  padding: 0 1rem;
+}
 
 
 
