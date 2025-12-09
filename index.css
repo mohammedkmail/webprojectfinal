@@ -142,6 +142,23 @@ header {
   transform: translateY(0);
 }
 
+/* ==================== Services Section ==================== */
+.services {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3rem 2rem;
+  gap: 2rem;
+}
+
+.service-card {
+  width: 260px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0px 2px 12px rgba(9, 157, 161, 0.15);
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
 
 
 
