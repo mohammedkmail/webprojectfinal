@@ -212,6 +212,20 @@ header {
   width: 37%;
 }
 
+.aboutUs div h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.aboutUs div p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #666;
+  line-height: 1.8;
+  font-size: 15px;
+}
 
 
 
