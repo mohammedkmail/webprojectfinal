@@ -57,3 +57,36 @@ header {
 .headerIcons i:hover {
   color: #099da1;
 }
+
+
+
+
+.headerIcons {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.headerIcons i {
+  transition: color 0.3s ease;
+}
+
+.headerIcons i:hover {
+  color: #099da1;
+}
+
+
+/* ==================== Welcome Section ==================== */
+
+
+
+
+
+
+
+
+
+
+
+
