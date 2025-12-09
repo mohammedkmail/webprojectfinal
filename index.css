@@ -334,3 +334,21 @@ header {
   font-weight: 600;
 }
 
+.book-card button {
+  display: block;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
+  background-color: #fff;
+  border: 2px solid #099da1;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 0.5rem auto 0;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.book-card button:hover {
+  background-color: #099da1;
+  color: #fff;
+}
