@@ -716,3 +716,147 @@ header {
 .footer-bottom a:hover {
   color: #078088;
 }
+/* ==================== Responsive Design ==================== */
+@media screen and (max-width: 1200px) {
+  .book-card {
+    width: 10rem;
+  }
+
+  .aboutUs div {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .welcomeText {
+    width: 100%;
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  .welcomeText h1 {
+    font-size: 2.8rem;
+  }
+
+  .welcome img {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .aboutUs {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .aboutUs div {
+    width: 100%;
+    padding: 0;
+  }
+
+  .aboutUs img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social-media {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .navigation {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .welcomeText h1 {
+    font-size: 2.2rem;
+  }
+
+  .service-card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .review-card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .blog-card {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  .blog-image {
+    width: 100%;
+    height: 200px;
+  }
+
+  .horizontal-scroll {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .welcomeText h1 {
+    font-size: 1.8rem;
+  }
+
+  .welcomeText p {
+    width: 100%;
+  }
+
+  .book-card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .book-image {
+    width: 80%;
+  }
+
+  .book-card button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .newsletter-widget {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .aboutUs div h2 {
+    font-size: 32px;
+  }
+
+  .reviews-section-title {
+    font-size: 32px;
+  }
+
+  .blog-section-title {
+    font-size: 36px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+}
